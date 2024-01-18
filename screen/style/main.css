@@ -6,7 +6,6 @@
   font-weight: 400;
   font-style: normal;
   text-transform: uppercase;
-  color: beige;
 }
 
 /* sfondo header */
@@ -201,6 +200,16 @@ li{
   display: flex;
   height: 650px;
   background-color: black;
+  justify-content: center;
+}
+
+h1{
+  margin: 10px;
+}
+
+span{
+  margin-left: 10px;
+  margin-bottom: 4px;
 }
 
 /* social section */
@@ -208,12 +217,14 @@ li{
 .social{
   display: flex;
   flex-direction: column;
-  height: 55%;
+  height: 75%;
   width: 35%;
   background-color: rgba(171,247,183,255);
   color: black;
   border-style: dotted;
   border-color: black;
+  margin-top: 10px;
+  justify-content: center;
 }
 
 /* product section */
@@ -221,12 +232,13 @@ li{
 .prodotto{
   display: flex;
   flex-direction: column;
-  height: 55%;
+  height: 75%;
   width: 15%;
   background-color: rgba(171,247,183,255);
   color: black;
   border-style: dotted;
   border-color: black;
+  margin-top: 10px;
 }
 
 /* company section */
@@ -234,12 +246,13 @@ li{
 .compagnia{
   display: flex;
   flex-direction: column;
-  height: 55%;
+  height: 75%;
   width: 15%;
   background-color: rgba(171,247,183,255);
   color: black;
   border-style: dotted;
   border-color: black;
+  margin-top: 10px;
 }
 
 /* resource section */
@@ -247,12 +260,13 @@ li{
 .risorse{
   display: flex;
   flex-direction: column;
-  height: 55%;
+  height: 75%;
   width: 15%;
   background-color: rgba(171,247,183,255);
   color: black;
   border-style: dotted;
   border-color: black;
+  margin-top: 10px;
 }
 
 /* rules section */
@@ -260,12 +274,13 @@ li{
 .norme{
   display: flex;
   flex-direction: column;
-  height: 55%;
+  height: 75%;
   width: 15%;
   background-color: rgba(171,247,183,255);
   color: black;
   border-style: dotted;
   border-color: black;
+  margin-top: 10px;
 }
 
 
