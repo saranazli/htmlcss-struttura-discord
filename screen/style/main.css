@@ -174,6 +174,31 @@ li{
   border-color: white;
 }
 
+/* READY TO START section */
+
+.ready{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(232,249,135,255);
+  height: 800px;
+}
+
+.ready.unique-ready-element{
+  display: flex;
+  border-style: dotted;
+  border-color: fuchsia;
+  background-color: rgba(247,194,118,255);
+  width: 45%;
+  height: 80%;
+  justify-content: center;
+  align-items: center;
+  color: fuchsia;
+}
+
+/* footer */
+
+
 
 
 
