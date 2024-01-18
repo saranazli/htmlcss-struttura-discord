@@ -198,7 +198,7 @@ li{
 
 .conteiner.footer-top{
   display: flex;
-  height: 650px;
+  height: 550px;
   background-color: black;
   justify-content: center;
   border-bottom: solid;
@@ -207,7 +207,14 @@ li{
 
 .conteiner.footer-bottom{
   display: flex;
-  background-color: aquamarine;
+  background-color: black;
+  height: 500px;
+  color: red;
+}
+
+.conteiner.button{
+  display: flex;
+  background-color: blueviolet;
 }
 
 h1{
@@ -289,6 +296,10 @@ span{
   border-color: black;
   margin-top: 10px;
 }
+
+/* logo */
+
+.conteiner.footer-bottom-logo
 
 
 
