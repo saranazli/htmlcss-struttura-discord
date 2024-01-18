@@ -196,11 +196,18 @@ li{
 
 /* footer */
 
-.conteiner.footer{
+.conteiner.footer-top{
   display: flex;
   height: 650px;
   background-color: black;
   justify-content: center;
+  border-bottom: solid;
+  border-color: white;
+}
+
+.conteiner.footer-bottom{
+  display: flex;
+  background-color: aquamarine;
 }
 
 h1{
