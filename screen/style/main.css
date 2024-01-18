@@ -198,7 +198,7 @@ li{
 
 .conteiner.footer-top{
   display: flex;
-  height: 550px;
+  height: 600px;
   background-color: black;
   justify-content: center;
   border-bottom: solid;
@@ -208,7 +208,7 @@ li{
 .conteiner.footer-bottom{
   display: flex;
   background-color: black;
-  height: 500px;
+  height: 300px;
   color: red;
 }
 
