@@ -11,7 +11,7 @@
 
 /* sfondo header */
 
-.conteiner{
+.conteiner.header{
   display: flex;
   background-color: rgba(186,251,253,255);
   height: 100px;
@@ -41,7 +41,6 @@
 .header-section.nav{
   display: flex;
   width: 40%;
-  justify-content: center;
   justify-content: space-around;
 }
 
@@ -197,6 +196,81 @@ li{
 }
 
 /* footer */
+
+.conteiner.footer{
+  display: flex;
+  height: 650px;
+  background-color: black;
+}
+
+/* social section */
+
+.social{
+  display: flex;
+  flex-direction: column;
+  height: 55%;
+  width: 35%;
+  background-color: rgba(171,247,183,255);
+  color: black;
+  border-style: dotted;
+  border-color: black;
+}
+
+/* product section */
+
+.prodotto{
+  display: flex;
+  flex-direction: column;
+  height: 55%;
+  width: 15%;
+  background-color: rgba(171,247,183,255);
+  color: black;
+  border-style: dotted;
+  border-color: black;
+}
+
+/* company section */
+
+.compagnia{
+  display: flex;
+  flex-direction: column;
+  height: 55%;
+  width: 15%;
+  background-color: rgba(171,247,183,255);
+  color: black;
+  border-style: dotted;
+  border-color: black;
+}
+
+/* resource section */
+
+.risorse{
+  display: flex;
+  flex-direction: column;
+  height: 55%;
+  width: 15%;
+  background-color: rgba(171,247,183,255);
+  color: black;
+  border-style: dotted;
+  border-color: black;
+}
+
+/* rules section */
+
+.norme{
+  display: flex;
+  flex-direction: column;
+  height: 55%;
+  width: 15%;
+  background-color: rgba(171,247,183,255);
+  color: black;
+  border-style: dotted;
+  border-color: black;
+}
+
+
+
+
 
 
 
