@@ -8,8 +8,7 @@
 
 .conteiner{
   display: flex;
-  background-color: aqua;
-  width: 100%;
+  background-color: rgba(34, 160, 160, 0.679);
   height: 100px;
   align-items: center;
   justify-content: center;
@@ -18,10 +17,12 @@
 /* impostazione elementi header */
 
 .header-section{
+  background-color: plum;
   display: flex;
   height: 50px;
   min-width: 20%;
   border-style: dotted;
+  border-color: white;
   align-items: center;
   text-transform: uppercase;
 }
@@ -49,3 +50,26 @@ li{
 }
 
 /* hero */
+
+.jumbotron{
+  display: flex;
+  background-color: blueviolet;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+
+.jumbotron.unique-element{
+  display: flex;
+  border-style: dotted;
+  border-color: white;
+  background-color: palevioletred;
+  color: beige;
+  width: 40%;
+  height: 70%;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
