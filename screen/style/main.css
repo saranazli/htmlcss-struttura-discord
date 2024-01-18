@@ -187,7 +187,7 @@ li{
   border-style: dotted;
   border-color: fuchsia;
   background-color: rgba(247,194,118,255);
-  width: 45%;
+  width: 1365px;
   height: 80%;
   justify-content: center;
   align-items: center;
@@ -207,32 +207,29 @@ li{
 
 .conteiner.footer-bottom{
   display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: black;
-  height: 300px;
+  height: 150px;
   color: red;
 }
 
-.conteiner.button{
-  display: flex;
-  background-color: blueviolet;
-}
+/* social section*/
 
 h1{
   margin: 10px;
 }
 
-span{
+.footer-top.span{
   margin-left: 10px;
   margin-bottom: 4px;
 }
-
-/* social section */
 
 .social{
   display: flex;
   flex-direction: column;
   height: 75%;
-  width: 35%;
+  width: 355px;
   background-color: rgba(171,247,183,255);
   color: black;
   border-style: dotted;
@@ -247,7 +244,7 @@ span{
   display: flex;
   flex-direction: column;
   height: 75%;
-  width: 15%;
+  width: 252px;
   background-color: rgba(171,247,183,255);
   color: black;
   border-style: dotted;
@@ -261,7 +258,7 @@ span{
   display: flex;
   flex-direction: column;
   height: 75%;
-  width: 15%;
+  width: 252px;
   background-color: rgba(171,247,183,255);
   color: black;
   border-style: dotted;
@@ -275,7 +272,7 @@ span{
   display: flex;
   flex-direction: column;
   height: 75%;
-  width: 15%;
+  width: 252px;
   background-color: rgba(171,247,183,255);
   color: black;
   border-style: dotted;
@@ -289,7 +286,7 @@ span{
   display: flex;
   flex-direction: column;
   height: 75%;
-  width: 15%;
+  width: 252px;
   background-color: rgba(171,247,183,255);
   color: black;
   border-style: dotted;
@@ -297,17 +294,14 @@ span{
   margin-top: 10px;
 }
 
-/* logo */
+/* button and logo section */
 
-.conteiner.footer-bottom-logo
-
-
-
-
-
-
-
-
-
-
-
+.conteiner-button{
+  display: flex;
+  background-color: blueviolet;
+  width: 1365px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
