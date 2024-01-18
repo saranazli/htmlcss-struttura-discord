@@ -2,35 +2,40 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Salsa", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  color: beige;
 }
 
 /* sfondo header */
 
 .conteiner{
   display: flex;
-  background-color: rgba(34, 160, 160, 0.679);
+  background-color: rgba(186,251,253,255);
   height: 100px;
   align-items: center;
   justify-content: center;
 }
 
 /* impostazione elementi header */
+/* largo 1365px */
 
 .header-section{
   background-color: plum;
   display: flex;
-  height: 50px;
-  min-width: 20%;
+  height: 80px;
   border-style: dotted;
+  min-width: 10%;
   border-color: white;
   align-items: center;
-  text-transform: uppercase;
 }
 
 /* impostazione nav */
 
 .header-section.logo{
- padding: 10px;
+ padding: 20px;
 }
 
 .header-section.nav{
@@ -45,7 +50,7 @@ li{
 }
 
 .header-section.login{
-  padding: 10px;
+  padding: 20px;
   justify-content: flex-end;
 }
 
@@ -53,8 +58,8 @@ li{
 
 .jumbotron{
   display: flex;
-  background-color: blueviolet;
-  height: 400px;
+  background-color: rgba(204,135,254,255);
+  height: 500px;
   justify-content: center;
   align-items: center;
 }
@@ -64,12 +69,113 @@ li{
   border-style: dotted;
   border-color: white;
   background-color: palevioletred;
-  color: beige;
-  width: 40%;
+  width: 45%;
   height: 70%;
   justify-content: center;
   align-items: center;
 }
+
+/* THE SPACE section */
+
+.the-space{
+  display: flex;
+  height:500px;
+  background-color: rgba(238,129,122,255);
+  justify-content: center;
+  align-items: center;
+}
+
+.the-space.img-space{
+  display: flex;
+  width: 900px;
+  height: 70%;
+  background-color: rgba(251,218,165,255);
+  justify-content: center;
+  align-items: center;
+  border-style: dotted;
+  border-color: white;
+  color: fuchsia;
+}
+
+.the-space.text-space{
+  display: flex;
+  width: 464px;
+  height: 70%;
+  background-color: rgba(247,194,118,255);
+  justify-content: center;
+  align-items: center;
+  border-style: dotted;
+  border-color: white;
+}
+
+/* the Vocal CHANE section*/
+
+.vocal-chane{
+  display: flex;
+  height:500px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.vocal-chane.text-vocal{
+  display: flex;
+  width: 464px;
+  height: 70%;
+  background-color: rgba(247,194,118,255);
+  justify-content: center;
+  align-items: center;
+  border-style: dotted;
+  border-color: fuchsia;
+}
+
+.vocal-chane.img-vocal{
+  display: flex;
+  width: 900px;
+  height: 70%;
+  background-color: rgba(251,218,165,255);
+  justify-content: center;
+  align-items: center;
+  border-style: dotted;
+  border-color: fuchsia;
+  color: fuchsia;
+}
+
+/* COMMUNITY section*/
+
+.community{
+  display: flex;
+  height:500px;
+  background-color: rgba(238,129,122,255);
+  justify-content: center;
+  align-items: center;
+}
+
+.community.img-community{
+  display: flex;
+  width: 900px;
+  height: 70%;
+  background-color: rgba(251,218,165,255);
+  justify-content: center;
+  align-items: center;
+  border-style: dotted;
+  border-color: white;
+  color: fuchsia;
+}
+
+.community.text-community{
+  display: flex;
+  width: 464px;
+  height: 70%;
+  background-color: rgba(247,194,118,255);
+  justify-content: center;
+  align-items: center;
+  border-style: dotted;
+  border-color: white;
+}
+
+
+
 
 
 
